@@ -1,0 +1,13 @@
+# Ignorar archivos y carpetas generados por PlatformIO
+.pio
+.vscode
+
+# Ignorar archivos de configuración del editor
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?.pio
+.vscode

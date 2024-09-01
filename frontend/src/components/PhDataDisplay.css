@@ -1,0 +1,41 @@
+.ph-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ph-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.ph-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ph-list-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ph-list-item:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.ph-value {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.ph-timestamp {
+  color: #555;
+}

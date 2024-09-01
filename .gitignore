@@ -1,0 +1,38 @@
+# Ignorar todas las carpetas node_modules
+node_modules/
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar archivos y carpetas generados por PlatformIO
+arduino/.pio
+arduino/.vscode
+
+# Ignorar los archivos de Frontend y Backend
+
+frontend/node_modules/
+frontend/.next/
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
+
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.production
+backend/.env.test
+
+# Ignora el Dist de la carpeta de Frontend
+frontend/dist/
+
+# Ignorar archivos de configuración del editor
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
