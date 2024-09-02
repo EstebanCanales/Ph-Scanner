@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-
 require('dotenv').config();
 
 // Codifica el nombre de usuario y la contraseña para usar en la URI de conexión
@@ -16,7 +15,7 @@ const connectDB = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true
     });
-    console.log('MongoDB conectado yei');
+    console.log('MongoDB conectado womp womp');
   } catch (err) {
     console.error(err.message);
     process.exit(1);
