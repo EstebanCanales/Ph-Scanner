@@ -1,4 +1,4 @@
-# Proyecto PH
+# Proyecto de medidor de pH
 
 Este proyecto tiene como objetivo medir el pH de una solución utilizando un sensor conectado a un dispositivo Arduino, enviar los datos a un servidor backend y mostrar los datos en una interfaz frontend.
 
